@@ -597,6 +597,7 @@ namespace DarkWowSoft
             };
             #endregion
             #region Поля и текст
+            SolidColorBrush textColors = new SolidColorBrush(Colors.OrangeRed);
             TextBlock textBlockHost = new TextBlock()
             {
                 Text = "HostName",
@@ -615,7 +616,7 @@ namespace DarkWowSoft
                 Margin = new Thickness(15, 00, 25, 00),
                 Text = "localhost",
                 FontWeight = FontWeights.Bold,
-                Foreground = new SolidColorBrush(Colors.IndianRed),
+                Foreground = textColors,
                 BorderThickness = new Thickness(1),
                 BorderBrush = new SolidColorBrush(Colors.DarkBlue),
                 FontSize = 18,
@@ -628,7 +629,7 @@ namespace DarkWowSoft
                 Margin = new Thickness(15, 00, 25, 00),
                 Text = "3306",
                 FontWeight = FontWeights.Bold,
-                Foreground = new SolidColorBrush(Colors.IndianRed),
+                Foreground = textColors,
                 BorderThickness = new Thickness(1),
                 BorderBrush = new SolidColorBrush(Colors.DarkBlue),
                 FontSize = 18,
@@ -651,7 +652,7 @@ namespace DarkWowSoft
                 Margin = new Thickness(15, 00, 25, 00),
                 Text = "world",
                 FontWeight = FontWeights.Bold,
-                Foreground = new SolidColorBrush(Colors.IndianRed),
+                Foreground = textColors,
                 BorderThickness = new Thickness(1),
                 BorderBrush = new SolidColorBrush(Colors.DarkBlue),
                 FontSize = 18,
@@ -674,7 +675,7 @@ namespace DarkWowSoft
                 Margin = new Thickness(15, 00, 25, 00),
                 Text = "root",
                 FontWeight = FontWeights.Bold,
-                Foreground = new SolidColorBrush(Colors.IndianRed),
+                Foreground = textColors,
                 BorderThickness = new Thickness(1),
                 BorderBrush = new SolidColorBrush(Colors.DarkBlue),
                 FontSize = 18,
@@ -696,7 +697,7 @@ namespace DarkWowSoft
                 HorizontalAlignment = HorizontalAlignment.Right,
                 Margin = new Thickness(15, 00, 25, 00),
                 FontWeight = FontWeights.Bold,
-                Foreground = new SolidColorBrush(Colors.IndianRed),
+                Foreground = textColors,
                 BorderThickness = new Thickness(2),
                 BorderBrush = new SolidColorBrush(Colors.DarkBlue),
                 FontSize = 18,
