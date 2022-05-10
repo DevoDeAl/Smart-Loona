@@ -1,0 +1,24 @@
+﻿<Window x:Class="DarkWowSoft.linkWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DarkWowSoft"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="50" Title="Выбор связи">
+    <Grid x:Name="MainRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition x:Name="r1"/>
+            <RowDefinition x:Name="r2"/>
+            <RowDefinition x:Name="r3"/>
+            <RowDefinition x:Name="r4"/>
+            <RowDefinition x:Name="r5"/>
+            <RowDefinition x:Name="r6"/>
+            <RowDefinition x:Name="r7"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="c1"/>
+            <ColumnDefinition x:Name="c2"/>
+        </Grid.ColumnDefinitions>
+    </Grid>
+</Window>
