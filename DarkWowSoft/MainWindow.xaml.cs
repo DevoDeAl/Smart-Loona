@@ -16,8 +16,9 @@ using System.Data;
 namespace DarkWowSoft
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Основное окно
     /// </summary>
+  
     public partial class MainWindow : Window
     {
         #region Элементы интерфейса (внешний контекст)
