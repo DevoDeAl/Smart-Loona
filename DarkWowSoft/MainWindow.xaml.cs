@@ -17,6 +17,7 @@ namespace DarkWowSoft
 {
     /// <summary>
     /// Основное окно
+    /// Loona cool dog
     /// </summary>
   
     public partial class MainWindow : Window
